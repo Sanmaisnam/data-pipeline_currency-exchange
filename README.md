@@ -42,7 +42,9 @@ Supply the path to your downloaded private key, supply the *project_id* and defi
 
 ### Enter the config variables
 
-After connection has been set up, you can go to the [bigquery_github_trends DAG](../airflow-pipeline/data_pipeline.py), and enter the value of config variables:
+After connection has been set up, we need to upload the config variables in `Admin -> Variables`
+
+Then, you can go to the [Data Pipeline DAG](./airflow-pipeline/data_pipeline.py), and enter the value of config variables:
 - __project_id__: the bigquery project you are working on
 - __bq_conn_id__: the bigquery connection id
 - __dataset_id__: the bigquery dataset you are working on
