@@ -19,6 +19,6 @@
 
 ![console](results/dag_interface.png?raw=true)
 
-## DAG Worflow View
+## DAG Workflow View
 
 ![console](results/dag_worflow.png?raw=true)
