@@ -2,7 +2,7 @@
 
 ---
 
-This project is to construct a data pipeline using Google Cloud BigQuery and Airflow.
+This project constructs a data pipeline for daily update of euro values (value in terms of euro currency) and exchange rates for all currencies using Google Cloud BigQuery and Airflow.
 
 ## Setup 
 
