@@ -91,7 +91,7 @@ Then, activate the environment
 source airflow_venv/bin/activate
 ```
 
-install the analysis_requirement.txt
+Install the analysis_requirement.txt
 
 ```
 (airflow_venv) pip3 install -r analysis_requirement.txt
