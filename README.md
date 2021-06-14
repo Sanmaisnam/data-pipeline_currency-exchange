@@ -79,8 +79,11 @@ docker-compose -f ddocker-compose-bquery.yml run --rm webserver airflow test big
 ---
 ## Data Analysis
 ---
+##Setup
+Jupyter environment
+Python virtual environment
 
-First, create a python virtual environment
+You need to have jupyter installed for this. First, create a python virtual environment
 
 ```
 python3 -m venv airflow_venv
