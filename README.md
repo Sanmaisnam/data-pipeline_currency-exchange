@@ -2,7 +2,7 @@
 
 ---
 
-This project constructs a data pipeline for daily update of euro values (value in terms of euro currency) and exchange rates for all currencies using Google Cloud BigQuery and Airflow. The pipeline is followed by detailed data analysis.
+This project constructs a data pipeline for daily update of euro values (value in terms of euro currency) and exchange rates for all currencies using Google Cloud BigQuery and Airflow. The pipeline is followed by detailed data analysis. The snapshots of the results of the pipeline construction are available in Results.md (./Results.md). 
 
 ---
 
@@ -100,6 +100,10 @@ Install the analysis_requirement.txt
 (airflow_venv) pip3 install -r analysis_requirement.txt
 ```
 Finally, the analysis could be performed using the Jupyter Notebook Data_Analysis (./data_analysis.ipynb)
+
+```
+jupyter notebook
+```
 
 To deactivate the virtual environment, just type
 
