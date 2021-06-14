@@ -98,6 +98,10 @@ Install the analysis_requirement.txt
 ```
 Finally, the analysis could be performed using the Jupyter Notebook Data_Analysis (./data_analysis.ipynb)
 
+```
+jupyter notebook
+```
+
 To deactivate the virtual environment, just type
 
 ```
