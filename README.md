@@ -66,16 +66,6 @@ After connection and config variables has been set up, you can now test and run 
 docker-compose -f docker-compose-bquery.yml run --rm webserver airflow test [DAG_ID] [TASK_ID] [EXECUTION_DATE]
 ```
 
-- Examples: 
-
-```
-# Task 1
-docker-compose -f docker-compose-bquery.yml run --rm webserver airflow test bigquery_github_trends bq_check_githubarchive_day 2018-12-01
-
-# Task 2
-docker-compose -f ddocker-compose-bquery.yml run --rm webserver airflow test bigquery_github_trends bq_check_hackernews_full 2018-12-01
-```
-
 ---
 ## Data Analysis
 ---
