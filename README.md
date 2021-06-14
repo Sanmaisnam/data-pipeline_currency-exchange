@@ -2,7 +2,7 @@
 
 ---
 
-This project constructs a data pipeline for daily update of euro values (value in terms of euro currency) and exchange rates for all currencies using Google Cloud BigQuery and Airflow. The pipeline is followed by detailed data analysis.
+This project constructs a data pipeline for daily update of euro values (value in terms of euro currency) and exchange rates for all currencies using Google Cloud BigQuery and Airflow. The pipeline is followed by detailed data analysis. The snapshots of the results of the pipeline construction are available in Results.md. 
 
 ---
 
@@ -79,8 +79,11 @@ docker-compose -f ddocker-compose-bquery.yml run --rm webserver airflow test big
 ---
 ## Data Analysis
 ---
+##Setup
+Jupyter environment
+Python virtual environment
 
-First, create a python virtual environment
+You need to have jupyter installed for this. First, create a python virtual environment
 
 ```
 python3 -m venv airflow_venv
