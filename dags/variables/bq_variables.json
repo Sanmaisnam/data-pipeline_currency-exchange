@@ -1,0 +1,7 @@
+{
+	"bigquery_variables": {
+        "conn_id": "my_conn_id",
+		"project_id": "data-integration-316423",
+		"dataset": "currency_exchange"
+	}
+}
